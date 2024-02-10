@@ -3,13 +3,12 @@ function esNumeroEntero(numero) {
   // Verifica si este es un número entero o no.
   // Returna true si lo es, de lo contrario, retorna false.
   // Tu código:
-  var numeroUsuario =15;
-  if(numeroUsuario%1===0){
-    return true;
-  }else{
-    return false;
-  }
+    if (numero % 1 === 0) {
+      return true;
+    } else {
+      return false;
+    };
 }
-console.log(esNumeroEntero(5));
+//console.log(esNumeroEntero(3.6));
 module.exports = esNumeroEntero;
 /*Si el resultado de dividir el número por 1 es igual a 0, entonces el número es un entero. */
